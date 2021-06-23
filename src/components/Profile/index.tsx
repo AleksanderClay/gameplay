@@ -3,7 +3,7 @@ import {Text, View} from 'react-native'
 import {styles} from "./styles";
 import {Avatar} from "../Avatar";
 
-export function  Profile() {
+export function Profile() {
     return(
         <View style={styles.container}>
             <Avatar urlImage={"http://github.com/aleksanderclay.png"}/>
