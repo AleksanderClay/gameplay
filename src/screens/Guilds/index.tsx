@@ -22,7 +22,43 @@ export function Guilds({ handleGuildSelect }: Props) {
             name: 'CSGO Malinos ',
             icon: 'image.png',
             owner: true
-        }
+        },
+        {
+            id: '3',
+            name: 'Lendários',
+            icon: 'image.png',
+            owner: true
+        },
+        {
+            id: '4',
+            name: 'CSGO Malinos ',
+            icon: 'image.png',
+            owner: true
+        },
+        {
+            id: '5',
+            name: 'Lendários',
+            icon: 'image.png',
+            owner: true
+        },
+        {
+            id: '6',
+            name: 'CSGO Malinos ',
+            icon: 'image.png',
+            owner: true
+        },
+        {
+            id: '7',
+            name: 'Lendários',
+            icon: 'image.png',
+            owner: true
+        },
+        {
+            id: '8',
+            name: 'CSGO Malinos ',
+            icon: 'image.png',
+            owner: true
+        },
     ]
 
     return (
@@ -37,7 +73,9 @@ export function Guilds({ handleGuildSelect }: Props) {
                     />
                 )}
                 showsVerticalScrollIndicator={false}
-                ItemSeparatorComponent={() => <ListDivider/>}
+                contentContainerStyle={{ paddingBottom: 68  }}
+                ListHeaderComponent={() => <ListDivider isCentered/>}
+                ItemSeparatorComponent={() => <ListDivider isCentered/>}
                 style={styles.guilds}
             />
 
